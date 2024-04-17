@@ -22,6 +22,7 @@ public class Main {
                 String cookies = executeSelenium(params);
                 sendResponse(exchange, 200, cookies);
             } else {
+
                 sendResponse(exchange, 405, "");
             }
         }));
